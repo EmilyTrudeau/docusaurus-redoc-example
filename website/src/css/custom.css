@@ -1,0 +1,43 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+--ifm-color-primary: #2E72F6;
+--ifm-color-primary-dark: #255BC5;
+--ifm-color-primary-darker: #1C4494;
+--ifm-color-primary-darkest: #122E62;
+--ifm-color-primary-light: #588EF8;
+--ifm-color-primary-lighter: #82AAFA;
+--ifm-color-primary-lightest: #ABC7FB;
+--ifm-code-font-size: 95%;
+--ifm-footer-background-color: #EFF1F4;
+font-family:'Inter', sans-serif;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Global Font Family */
+
+/* Heading Font Declaration */
+h1, h2, h3, h4, h5, h6 {
+  font-family:'Poppins', sans-serif;
+}
+
+/* Footer */
+footer.footer {
+  border-top:1px solid #E3E5E8;
+}
